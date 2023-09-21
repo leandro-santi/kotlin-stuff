@@ -38,5 +38,7 @@ fun main(args: Array<String>) {
     println(strLengthNull(nullString))
 
     println(describeString(maybeString = "Hello there"))
+    println(describeString(maybeString = ""))
+    println(describeString(nullString))
 
 }
