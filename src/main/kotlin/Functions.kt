@@ -52,5 +52,5 @@ fun main(args: Array<String>) {
         printAll(*entries)
     }
     log("You", "don't", "know", "the", "power", "of", "the", "dark", "side")
-    
+
 }
