@@ -25,4 +25,32 @@ fun main(args: Array<String>) {
     println(sum(1, 2))
     println(multiply(2, 2))
 
+    println()
+
+    // Funções dentro do escopo de outra função só vão estar disponíveis no contexto da escopo
+
+    // vararg pode receber uma quantidade infinita de um determinado tipo
+    fun printAll(vararg messages: String) {
+        for (m in messages) print("$m ")
+        println()
+    }
+    // sendo vararg, o mesmo se comporta como um array do tipo definido (no exemplo, string)
+    printAll("You", "don't", "know", "the", "power", "of", "the", "dark", "side")
+
+    fun printAllWithPrefix(vararg messages: String, prefix: String) {
+        print("[$prefix]: ")
+        for (m in messages) print("$m ")
+        println()
+    }
+    printAllWithPrefix(
+        "You", "don't", "know", "the", "power", "of", "the", "dark", "side",
+        prefix = "Anakin"
+    )
+
+    fun log(vararg entries: String) {
+        // O símbolo * serve para especificar que o tipo passado por parâmetro é um vararg
+        printAll(*entries)
+    }
+    log("You", "don't", "know", "the", "power", "of", "the", "dark", "side")
+    
 }
