@@ -1,4 +1,4 @@
-class Class
+class Statement
 
 fun cases(obj: Any) { // Tipagem Any é algo que pode receber qualquer coisa
     when (obj) { // When é similar a estrutura de switch case
@@ -6,7 +6,7 @@ fun cases(obj: Any) { // Tipagem Any é algo que pode receber qualquer coisa
         "Hello there!" -> println("Hello, Master!") // String
         is Long -> println("Long") // Tipo Long Int
         !is String -> println("Not a string") // Se não for String
-        else -> println("Unknown") // Desconhecido
+        else -> println("Unknown") // Similar ao default de um switch case
     }
 }
 
@@ -23,7 +23,7 @@ fun main() {
     cases("Hello there!")
     cases(1)
     cases(0L)
-    cases(Class())
+    cases(Statement())
     cases("hello")
 
     casesInt(2)
