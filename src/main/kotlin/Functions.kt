@@ -1,4 +1,4 @@
-fun printMessage(message: String): Unit { // Unit é como se fosse um retorno vazio / nada
+fun printMessage(message: String): Unit { // Unit é como se fosse um retorno vazio (void)
     println(message)
 }
 
@@ -12,11 +12,11 @@ fun sum(x: Int, y: Int): Int { // Retorno explícito de um inteiro
 }
 
 // Inline Function
-fun multiply(x: Int, y: Int) = x * y // Retorno implícito de um valor inteiro resultado da multiplicação
+fun multiply(x: Int, y: Int) = x * y // Retorno implícito de um valor inteiro como resultado da multiplicação
 
 fun main(args: Array<String>) {
 
-    // println("Hello World!")
+    println("Hello World!")
     printMessage("Star Wars")
     printMessageWithPrefix("Hello there!!")
     printMessageWithPrefix("Hello there!!", "Obi-Wan Kenobi")
@@ -27,14 +27,14 @@ fun main(args: Array<String>) {
 
     println()
 
-    // Funções dentro do escopo de outra função só vão estar disponíveis no contexto da escopo
+    // Funções dentro do escopo de outra função só vão estar disponíveis no contexto do escopo
 
-    // vararg pode receber uma quantidade infinita de um determinado tipo
+    // O tipo vararg pode receber uma quantidade infinita de um determinado tipo
+    // Sendo vararg, o mesmo se comporta como um array do tipo definido (no exemplo, string)
     fun printAll(vararg messages: String) {
         for (m in messages) print("$m ")
         println()
     }
-    // sendo vararg, o mesmo se comporta como um array do tipo definido (no exemplo, string)
     printAll("You", "don't", "know", "the", "power", "of", "the", "dark", "side")
 
     fun printAllWithPrefix(vararg messages: String, prefix: String) {
@@ -47,8 +47,8 @@ fun main(args: Array<String>) {
         prefix = "Anakin"
     )
 
+    // O símbolo * serve para especificar que o tipo passado por parâmetro é um vararg
     fun log(vararg entries: String) {
-        // O símbolo * serve para especificar que o tipo passado por parâmetro é um vararg
         printAll(*entries)
     }
     log("You", "don't", "know", "the", "power", "of", "the", "dark", "side")

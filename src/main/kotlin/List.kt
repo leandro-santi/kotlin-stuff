@@ -1,7 +1,7 @@
-// Uma Lista é uma estrutura de dados ordenada
 
-// listOf() Imutável (read-only)
-// mutableListOf() Mutável
+// Uma Lista é uma estrutura de dados ordenada
+// listOf(): Imutável (read-only)
+// mutableListOf(): Mutável
 
 // A variável é imutável (val), mas a lista mutável instanciada pode ser modificada
 val original: MutableList<Int> = mutableListOf(1, 2, 3)

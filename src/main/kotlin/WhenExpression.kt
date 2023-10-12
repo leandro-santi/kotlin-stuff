@@ -1,13 +1,13 @@
 class Expression
 
-fun whenAssign(obj: Any): Any { // Tipagem Any é algo que pode receber / retornar qualquer coisa
-    val result = when (obj) { // Resultado recebe a que for selecionado do when
+fun whenAssign(obj: Any): Any { // Tipo Any é algo que pode receber / retornar qualquer coisa
+    val result = when (obj) { // Resultado recebe o que for selecionado do when
         1 -> "Um"
         "Hello there!" -> 1
         is Long -> false
         else -> 42
     }
-    return result // Resultado é retornado
+    return result
 }
 
 fun whenIntAssign(num: Int): String {
@@ -21,6 +21,7 @@ fun whenIntAssign(num: Int): String {
 }
 
 fun main() {
+
     println(whenAssign("Hello there!"))
     println(whenAssign(3.4))
     println(whenAssign(1))
@@ -30,4 +31,5 @@ fun main() {
     println(whenIntAssign(2))
     println(whenIntAssign(3))
     println(whenIntAssign(4))
+
 }

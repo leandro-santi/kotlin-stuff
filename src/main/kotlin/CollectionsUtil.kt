@@ -12,7 +12,6 @@ fun main(){
     println(negatives)
 
     // map -> Transforma todos os elementos de uma coleção
-    // Transformação de dados
     val doubled = numbers.map { x -> x * 2 }
     val tripled = numbers.map { it * 3 }
 
@@ -23,12 +22,12 @@ fun main(){
     val clothesBag = listOf("shirts","pants","jeans")
     val cart = listOf(fruitsBag, clothesBag)
 
-    val mapBag = cart.map { it } // Map gera uma matriz de duas listas
+    // Map gera uma matriz de duas listas
+    val mapBag = cart.map { it }
 
     // flatMap -> Transforma cada elemento de uma coleção em um objeto iteravel
     // Construindo uma única lista como resultado da transformação
     val flatMapBag = cart.flatMap { it }
-
 
     println("Your bags are: $mapBag")
     println("The things you bought are: $flatMapBag")

@@ -1,20 +1,23 @@
-fun describeString(maybeString: String?): String {              // 1
-    if (maybeString != null && maybeString.length > 0) {        // 2
+
+// NullSafety: Uma variável só pode ser nula se adicionarmos o '?'
+
+fun describeString(maybeString: String?): String {
+    if (!maybeString.isNullOrEmpty()) {
         return "String of length ${maybeString.length}"
     } else {
-        return "Empty or null string"                           // 3
+        return "Empty or null string"
     }
 }
 
 fun main(args: Array<String>) {
 
-    // NullSafety: Uma variável só pode ser nula se adicionarmos o ? no fim da mesma
+    // Não-Nula
     var neverNullString: String = "This can't be null"
     println(neverNullString)
 
+    // Nula
     var nullString: String? = "This can be null"
     println(nullString)
-
     nullString = null
     println(nullString)
 
@@ -32,10 +35,11 @@ fun main(args: Array<String>) {
 
     fun strLengthNull(canBeNull: String?): Int { // 1 - Int?, 2 - Int
         // return canBeNull?.length // 1
-        return canBeNull?.length ?: 0 // 2
+        return canBeNull?.length ?: -1 // 2
     }
     println(strLengthNull(neverNullString))
     println(strLengthNull(nullString))
+
 
     println(describeString(maybeString = "Hello there"))
     println(describeString(maybeString = ""))

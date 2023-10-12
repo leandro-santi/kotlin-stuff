@@ -1,4 +1,4 @@
-class MutableStack<T>(vararg items: T) { // Pilha Mutável de varargs de T (T se torna um tipo de parâmetro genérico)
+class MutableStack<T>(vararg items: T) { // Pilha Mutável de varargs de T (T é um tipo genérico)
 
     private val elements = items.toMutableList()
 

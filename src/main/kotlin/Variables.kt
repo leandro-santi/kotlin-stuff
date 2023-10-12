@@ -1,11 +1,13 @@
-fun SomeCondition(): Boolean = true;
+fun someCondition(): Boolean = true;
 
 fun main(args: Array<String>) {
 
     var a: String = "Inicial" // var é uma variável mutável
 
     val b: Int = 1 // val é uma variável imutável
-    val c = 3 // Kotlin tem inferência de tipo
+
+    // Kotlin faz inferência de tipo
+    val c = 3
     val d = "Anakin Skywalker"
 
     println(a)
@@ -14,10 +16,11 @@ fun main(args: Array<String>) {
     println(d)
 
     var e: Int = 0
+    // var e = 0
     println(e)
 
     val f: Boolean
-    if(SomeCondition()) f = true
+    if(someCondition()) f = true
     else f = false
     println(f)
 

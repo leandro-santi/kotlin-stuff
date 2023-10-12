@@ -1,8 +1,8 @@
 class Customer // Classe simples, sem nada. O cabeçalho e corpo são opcionais.
 
-class Contact(val id: Int, val email: String)
+class Contact(val id: Int, val email: String) // Classe com atríbutos / construtor parametrizado
 
-class Person(){
+class Person(){ // Classe padrão
 
     private var name: String = ""
     private var age = 0
@@ -20,9 +20,9 @@ class Person(){
         this.age = age
     }
 
-    fun GetName() = this.name
+    fun getName() = this.name
 
-    fun GetAge() = this.age
+    fun getAge() = this.age
 }
 
 fun main(){
@@ -35,7 +35,9 @@ fun main(){
 
     val PersonOne = Person("Leandro")
     val PersonTwo = Person("Leandro", 20)
-    //Person.CreatPerson("Leandro")
-    println(PersonOne.GetName())
-    println(PersonTwo.GetAge())
+
+    // Person.CreatPerson("Leandro")
+
+    println(PersonOne.getName())
+    println(PersonTwo.getAge())
 }

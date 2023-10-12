@@ -6,6 +6,7 @@ fun main(args: Array<String>) {
 
     var countObi = 0; var countAni = 0
 
+    // while loop
     while(countObi < 3){
         speakObiWan()
         countObi++
@@ -13,6 +14,7 @@ fun main(args: Array<String>) {
 
     println()
 
+    // do-while Loop
     do{
         speakAnakin()
         countAni++

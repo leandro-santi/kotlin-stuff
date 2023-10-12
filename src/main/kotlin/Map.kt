@@ -1,11 +1,11 @@
-// Pares de chave/valor (Dicionário)
 
+// Pares de chave/valor (Dicionário)
 // mapOf(): Imutável (read-only)
 // mutableMapOf(): Mutável
 
-const val POINTS_X_PASS: Int = 15 // Constante imutável
+const val POINTS_X_PASS: Int = 15 // CONSTANTE IMUTÁVEL
 
-val EZPassAccounts: MutableMap<Int, Int> = mutableMapOf(1 to 100, 2 to 100, 3 to 100) // Par de chave valor 1 -> 100
+val EZPassAccounts: MutableMap<Int, Int> = mutableMapOf(1 to 100, 2 to 100, 3 to 100) // Par de key -> value (1 -> 100)
 
 val EZPassReport: Map<Int, Int> = EZPassAccounts // Cópia read-only
 

@@ -1,5 +1,5 @@
-// Set é uma estrutura não ordenada que não aceita elementos duplicados
 
+// Set é uma estrutura não ordenada que não aceita elementos duplicados
 // setOf(): Imutável (read-only)
 // mutableSetOf(): Mutável
 

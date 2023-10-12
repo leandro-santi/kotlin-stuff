@@ -2,7 +2,6 @@ class Animal(val name: String)
 
 class Zoo(val animals: List<Animal>) {
 
-    // Assinatura de um iterator
     // O nome da função deve ser iterator e deve ter um modificador operator antes da assinatura
     operator fun iterator(): Iterator<Animal> { // Cria a capacidade de ser iterado
         return animals.iterator()

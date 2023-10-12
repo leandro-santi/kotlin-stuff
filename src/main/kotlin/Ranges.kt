@@ -1,3 +1,4 @@
+
 // Intervalos
 
 fun main(){
@@ -45,7 +46,7 @@ fun main(){
 
     val x = 2
 
-    if (x in 1..5) { // Se x estiver entre 1 e 5
+    if (x in 1..5) {
         print("x is in range from 1 to 5")
     }
 

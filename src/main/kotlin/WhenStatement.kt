@@ -1,6 +1,6 @@
 class Statement
 
-fun cases(obj: Any) { // Tipagem Any é algo que pode receber qualquer coisa
+fun cases(obj: Any) { // Tipo Any é algo que pode receber qualquer coisa
     when (obj) { // When é similar a estrutura de switch case
         1 -> println("One") // Inteiro
         "Hello there!" -> println("Hello, Master!") // String

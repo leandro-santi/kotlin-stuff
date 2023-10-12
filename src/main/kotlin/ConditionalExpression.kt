@@ -1,7 +1,6 @@
 fun main(){
 
-    // Parecido com um operador condicional ternário
-    fun max(a: Int, b: Int) = if (a > b) a else b
+    fun max(a: Int, b: Int) = if (a > b) a else b // Similar a um operador condicional ternário
 
     fun min(a: Int, b: Int): Any{
         return if (a < b) a else b
