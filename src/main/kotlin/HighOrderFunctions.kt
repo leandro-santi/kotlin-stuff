@@ -4,7 +4,7 @@ fun calculate(x: Int, y: Int, operation: (Int, Int) -> Int): Int {
 
 }
 
-fun operation(): (Int) -> Int {
+fun operation(): (Int) -> Double {
 
     return ::square // '::' aciona uma função pelo nome
 
@@ -14,7 +14,7 @@ fun makeSum(x: Int, y: Int) = x + y
 
 fun makeSub(x: Int, y: Int) = x - y
 
-fun square(x: Int) = x * x
+fun square(x: Int) = (x * x).toDouble()
 
 fun main() {
 
