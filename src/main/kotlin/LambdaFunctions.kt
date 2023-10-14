@@ -16,10 +16,14 @@ fun main() {
 
     val upperCase6: (String) -> String = String::uppercase
 
+    val sum: (Int, Int) -> Int = {a: Int, b: Int -> a + b}
+
     println(upperCase1("hello"))
     println(upperCase2("hello"))
     println(upperCase3("hello"))
     println(upperCase5("hello"))
     println(upperCase6("hello"))
+
+    println(sum(1,2))
 
 }
