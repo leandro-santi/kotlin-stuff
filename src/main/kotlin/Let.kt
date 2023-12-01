@@ -1,41 +1,31 @@
-
-// Let executa um bloco de código e retorna seu resultado
-
-fun customPrint(s: String) {
-    print(s.uppercase())
-}
-
 fun main() {
 
-    val empty = "test".let {
-        customPrint(it)
-        it.isEmpty() // Boolean
-    }
-    println(" is empty: $empty")
+    /*
+        'let' can be used for scope functions and null-checks.
+        inside the block, the object is referenced by 'it' or a custom name.
+        returns only thw result of its last expression.
+    */
 
-    println()
+    fun customPrint(s: String) {
+        print(s.uppercase())
+    }
+
+    val anime = "Naruto".let {
+        customPrint(it)
+        it.isEmpty() // returning the boolean result (last expression)
+    }
+    println(" is empty: $anime\n")
 
     fun printNonNull(str: String?) {
         println("Printing \"$str\":")
 
-        str?.let { // Executa somente se a string não for nula
-            // print("\t") // Tabulação
+        str?.let {
             customPrint(it)
             println()
         }
     }
 
-    fun printIfBothNonNull(strOne: String?, strTwo: String?) { // Lets encadeados
-        strOne?.let { firstString ->
-            strTwo?.let { secondString ->
-                customPrint("$firstString : $secondString")
-                println()
-            }
-        }
-    }
-
     printNonNull(null)
-    printNonNull("my string")
-    printIfBothNonNull("First","Second")
+    printNonNull("Naruto")
 
 }

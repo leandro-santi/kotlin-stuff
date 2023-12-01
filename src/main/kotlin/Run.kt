@@ -1,19 +1,21 @@
-
-// Run executa um bloco de código e retorna seu resultado
-
 fun main() {
 
-    fun getNullableLength(ns: String?) {
-        println("for \"$ns\":")
-        ns?.run {
-            println("\tis empty? " + isEmpty())
-            println("\tlength = $length")
-            length
+    /*
+        it's similar to 'let'.
+        'run' works executing a given block and returning its result.
+        inside the block, the object is referenced by 'this'.
+    */
+
+    fun printAnimeName(anime: String?) {
+
+        anime?.run {
+            println("Anime: $anime")
+            println("Anime's name length: $length")
         }
+
     }
 
-    getNullableLength(null)
-    getNullableLength("")
-    getNullableLength("some string with Kotlin")
+    printAnimeName(null)
+    println("Naruto")
 
 }
