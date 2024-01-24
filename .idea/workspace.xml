@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1dbfadc-96db-444f-bc29-e54acdbe0fff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinPlayground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Also.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Apply.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Classes.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CollectionsUtil.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConditionalExpression.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DataClass.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/EnumClass.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/EqualityChecks.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exceptions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/For.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FunctionalFunctions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Generics.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HighOrderFunctions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Inheritance.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InheritanceConstructorArguments.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InheritanceParameterizedConstructor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Iterators.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LambdaFunctions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Let.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/List.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Map.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NullSafety.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ObjectKeyword.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ranges.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Run.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Set.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Variables.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhenExpression.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhenStatement.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhileDoWhile.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/With.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2bPiHZipf8dKVSjAQlyDF2HiqUU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.ClassesKt.executor": "Run",
+    "Kotlin.ExceptionsKt.executor": "Run",
+    "Kotlin.FunctionalFunctionsKt.executor": "Run",
+    "Kotlin.InheritanceConstructorArgumentsKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/solitudeworks/basics" />
+      <recent name="$PROJECT_DIR$/src/com/solitudeworks/scopefunctions" />
+      <recent name="$PROJECT_DIR$/src/com/solitudeworks/collections" />
+      <recent name="$PROJECT_DIR$/src/com/solitudeworks/functional" />
+      <recent name="$PROJECT_DIR$/src/com/solitudeworks/specialclasses" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="ClassesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solitudeworks.basics.ClassesKt" />
+      <module name="KotlinPlayground" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solitudeworks.basics.ExceptionsKt" />
+      <module name="KotlinPlayground" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solitudeworks.functional.FunctionalFunctionsKt" />
+      <module name="KotlinPlayground" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InheritanceConstructorArgumentsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solitudeworks.basics.InheritanceConstructorArgumentsKt" />
+      <module name="KotlinPlayground" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="KotlinPlayground" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.ExceptionsKt" />
+        <item itemvalue="Kotlin.InheritanceConstructorArgumentsKt" />
+        <item itemvalue="Kotlin.FunctionalFunctionsKt" />
+        <item itemvalue="Kotlin.ClassesKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-220112af" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1dbfadc-96db-444f-bc29-e54acdbe0fff" name="Changes" comment="" />
+      <created>1706123029231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706123029231</updated>
+      <workItem from="1706123030315" duration="146000" />
+      <workItem from="1706123234504" duration="1023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
