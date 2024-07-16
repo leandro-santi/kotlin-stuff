@@ -5,46 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1dbfadc-96db-444f-bc29-e54acdbe0fff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KotlinPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinPlayground.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Also.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Apply.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Classes.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CollectionsUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ConditionalExpression.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DataClass.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/EnumClass.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/EqualityChecks.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exceptions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/For.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FunctionalFunctions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Generics.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HighOrderFunctions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Inheritance.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InheritanceConstructorArguments.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InheritanceParameterizedConstructor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Iterators.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LambdaFunctions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Let.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/List.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Map.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NullSafety.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ObjectKeyword.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ranges.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Run.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SealedClass.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Set.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Variables.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhenExpression.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhenStatement.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WhileDoWhile.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/With.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +30,12 @@
     "Kotlin.ExceptionsKt.executor": "Run",
     "Kotlin.FunctionalFunctionsKt.executor": "Run",
     "Kotlin.InheritanceConstructorArgumentsKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/leosanti/Projects/IdeaProjects/kotlin-stuff",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +45,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/solitudeworks/basics" />
       <recent name="$PROJECT_DIR$/src/com/solitudeworks/scopefunctions" />
